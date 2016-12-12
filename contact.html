@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Doggone It - Contact Us</title>
+    <link href="stylesheets/doggoneit.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Doggone It</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="referral.html">Referrals</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Contact Us</h2>
+        <p>
+        Please contact us with any questions or to schedule an onsite tour.
+        Required fields are marked with an asterick *.
+        </p>
+        <form method="post" action="http://www.youmakeithappen.net/instruction/html/contact.php">
+          <fieldset>
+            <label for="name">* Name:</label>
+            <input required id="name" type="text" name="name">
+            
+            <label for="email">* E-mail:</label>
+            <input required id="email" type="email" name="email">     
+                  
+            <label for="message">* Message:</label>
+            <textarea required id="message" name="message"></textarea>
+            
+            <label for="phone_number">* Phone Number:</label>
+            <input required id="phone_number" type="tel" name="phone_number">
+            
+            <input type="submit" value="Submit">
+         </fieldset>
+        </form>        
+      </main>
+      <footer>
+        <address>
+          <p>
+            1234 Overdrive Lane<br>
+            Cadott, WI 54210<br>
+            <a class="mobile" href="tel:888-555-5555">888-555-5555</a>
+            <span class="desktop">888-555-5555</span><br>
+          </p>
+        </address>
+        <small>
+          Copyright &copy; 2016 Doggone It<br>
+          <a href="mailto:christine@schmidt.com">christine@schmidt.com</a>
+        </small>
+      </footer>
+    </div>
+  </body>
+</html>
